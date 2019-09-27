@@ -1,0 +1,41 @@
+
+.column{
+    margin:0px !important;
+}
+
+.column_content{
+    padding:3px;
+    padding-left: 8px;
+    height: 2.2em;
+}
+
+.dim{
+    background: #76b5af;
+    
+    color: white;
+}
+#ContainerWrapper{
+    overflow-y:auto;
+}
+.fullheight{
+    height: calc(100%);
+}
+    #RelationWrapper{
+     overflow: auto;
+        position: relative;
+        z-index: 2;
+    }
+    .wrapper{
+        position: absolute;
+        width: auto !important;
+        padding: 0px;
+    }
+    .fullheight{
+      height: calc(100%);
+    }
+    
+.col_table_tbody{
+ max-height: 300px;
+  overflow: auto;
+  display: block;
+}
